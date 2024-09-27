@@ -1,0 +1,29 @@
+.navbar {
+	padding: 18px 23px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	-webkit-box-shadow: 0px 0px 27px -15px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 27px -15px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 27px -15px rgba(0, 0, 0, 0.75);
+	border-radius: 20px;
+}
+
+.login-img button img {
+	width: 44px;
+	border-radius: 50%;
+	transition: 0.5s;
+}
+
+.login-img button {
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+.login-img button:hover img {
+	-webkit-box-shadow: 0px 0px 27px -7px rgba(255, 0, 51, 1);
+	-moz-box-shadow: 0px 0px 27px -7px rgba(255, 0, 51, 1);
+	box-shadow: 0px 0px 27px -7px rgba(255, 0, 51, 1);
+	transition: 0.5s;
+}

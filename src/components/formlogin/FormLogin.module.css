@@ -1,0 +1,47 @@
+.form-login {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.logo {
+	background-image: url('/Group 3515.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 30px;
+	height: 90px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+form input {
+	width: 300px;
+	padding: 5px;
+	font-size: 18px;
+}
+
+.send-btn {
+	width: 100%;
+	background: linear-gradient(
+		90deg,
+		rgba(163, 107, 226, 1) 100%,
+		rgba(78, 44, 190, 1) 100%
+	);
+	cursor: pointer;
+	border-radius: 5px;
+	border: none;
+	padding: 5px;
+	font-size: 18px;
+	color: white;
+}

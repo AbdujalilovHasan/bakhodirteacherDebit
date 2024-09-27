@@ -1,0 +1,47 @@
+.sidebar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 200px;
+	border-right: 1px solid #e6e9ee;
+}
+
+.logo {
+	position: relative;
+}
+.logo-img {
+	position: absolute;
+	top: 15px;
+	left: 25px;
+}
+
+.logo-background {
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+.list-item {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: start;
+	padding: 5px 15px;
+	list-style-type: none;
+}
+
+.list-items {
+	width: 100%;
+}
+
+.list-items a {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	gap: 11px;
+	padding: 11px 19px;
+	border-radius: 8px;
+	font-size: 16px;
+	color: #9197b3;
+	text-decoration: none;
+}
